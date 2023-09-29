@@ -35,3 +35,8 @@ p {
 section h2 {
     border-bottom: solid 2px black;
 }
+#longNote1{
+    height: 25px;
+    display: absolute;
+    overflow: hidden;
+}
