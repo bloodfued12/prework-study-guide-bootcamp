@@ -24,3 +24,17 @@ console.log("Here are the topics we learned through Prework:");
 listTopics();
 console.log("Which topic should we study first?");
 selectTopics();
+
+function show() {
+    document.getElementById("show1").onclick
+    document.getElementById("longNote1").style.height= "auto";
+    document.getElementById("longNote1").style.width= "auto";
+    document.getElementById("longNote1").style.overflow= "visible"; 
+}
+function hide() {
+    document.getElementById("show1").ondblclick
+    document.getElementById("longNote1").style.height= "25px";
+    document.getElementById("longNote1").style.width= "auto";
+    document.getElementById("longNote1").style.overflow= "hidden";
+}
+
